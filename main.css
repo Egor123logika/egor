@@ -1,0 +1,83 @@
+
+
+
+
+
+
+header a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+
+
+}
+
+
+
+header {
+    display: flex;
+    border-bottom: 1px dashed black;
+    justify-content: space-evenly;
+}
+
+
+header a:hover {
+    color: #c1c1c1
+}
+
+h2{
+    color: #2e4f58;
+}
+
+
+
+h2:hover {
+    box-shadow: 5px 5px 5px 0 navy;
+}
+
+body {
+    background-color: white;
+}
+
+.Img {
+    width: 80px;
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid grey;
+    width: 400px;
+}
+
+.specials_list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+}
+
+.special {
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    color: black;
+} 
+
+img{
+    width: 350px;
+    height: 250px;
+}
+ 
+
